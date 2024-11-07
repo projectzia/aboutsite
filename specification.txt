@@ -1,0 +1,14 @@
+Some HTML Tags used:
+nav
+div
+a
+span
+ul
+li
+label
+img
+h1, h2
+hr, br
+
+CSS: Not a lot of CSS involved. Did most of the CSS through bootstrap classes in order to make the site more responsive
+How Javascript and Bootstrap used: Used to create a toggle button to switch between light and dark modes, and bootstrap to use containers, grid system, navigation bar, and CSS used in General.

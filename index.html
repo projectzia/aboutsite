@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en" data-bs-theme="dark">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <title>Ahmed</title>
+    </head>
+
+    <body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">Project Homepage (don't click here)</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item nav-underline">
+                            <a class="nav-link active" aria-current="page" href="index.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="experience.html">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact.html">Contact Me</a>
+                        </li>
+                    </ul>
+                    <div class="form-check form-switch d-flex">
+                        <input class="form-check-input me-1" type="checkbox" role="switch" id="btnSwitch" id="flexSwitchCheckChecked" checked>
+                        <label class="form-check-label" for="flexSwitchCheckChecked">Dark Mode</label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid" >
+            <div class="container-md mt-5">
+                <div class="row">
+                    <div class="col-sm-4 order-sm-last">
+                        <img src="catoo.png" class="img-fluid rounded">
+                    </div>
+                    <!-- <div class="w-100 d-none d-md-block"></div> -->
+                    <div class="col-sm-8 order-sm-first pt-3">
+                        <h1 class="display-2">Hi, I'm Ahmed</h1>
+                        <hr>
+                        <p class="lead">Highschool Senior who is learning to code and play with computers <br> I am doing my A'levels (Equivalent to Grade 12)</p>
+                    </div>
+
+                </div>
+                <div class="row pt-3">
+                    <div class="col">
+                        <h2>Where am I from?</h2>
+                        <p>
+                            I am from Lahore, Pakistan. Grew up in a small town, attended a public school, and now moved to Lahore
+                        </p>
+                        <h2>What do I like</h2>
+                        <p>
+                            I like to tinker with things mostly. School gets really reallly busy and you barely have time to do anything else.
+                            <br>
+                            Other than that, I just play with stuff, hang out with friends, and build computers. Or repair them.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- js -->
+        <script>
+            document.getElementById('btnSwitch').addEventListener('click', function(event) {
+                if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
+                    document.documentElement.setAttribute('data-bs-theme', 'light');
+                } else {
+                    document.documentElement.setAttribute('data-bs-theme', 'dark');
+                }
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+
+        </script>
+    </body>
+
+</html>
